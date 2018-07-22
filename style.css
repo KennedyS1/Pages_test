@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+html, body {
+	margin:0;
+	padding:0;
+	height:100%;
+	width:100%;
+}
+	
+.intro {
+	height:100%;
+	width:100%;
+	margin:auto;
+	background: url(https://cdn.pixabay.com/photo/2018/03/03/10/34/action-3195378_960_720.jpg);
+	display:table;
+	top:0;
+	background-size:cover;
+}
+.intro .intr {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+.intrau {
+	max-width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+.intrau h1 {
+	font-family: Monoton;
+	color: #000000;
+	text-shadow: 0px 0px 300px #000;
+	font-size: 600%;
+}
+.prg {
+	font-family: "Arial Black", Gadget, sans-serif;
+	border-radius: 9px;
+	color: #000000 ;
+	font-size: 120%;
+	padding: 10px 20px;
+	border: solid #000000 3px;
+	text-transform: uppercase;
+	text-decoration: none;
+
+}
+.prg:hover{
+	color:#fff;
+	border: solid #fff 3px;
+}
+.blt {
+	font-family: "Arial Black", Gadget, sans-serif;
+	border-radius: 9px;
+	color: #000000 ;
+	font-size: 120%;
+	padding: 10px 20px;
+	border: solid #000000 3px;
+	text-transform: uppercase;
+	text-decoration: none;
+
+}
+.blt:hover{
+	color:#fff;
+	border: solid #fff 3px;
+}
+.progra {
+	height:100%;
+	width:100%;
+	margin:auto;
+	background: url(https://cdn.pixabay.com/photo/2015/05/15/14/50/concert-768722_960_720.jpg);
+	display:table;
+	top:20px;
+	background-size:cover;
+}
+.progra .prog {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+.progra h1{
+	font-family: Monoton;
+	text-align: center;
+	font-size: 310%;
+}
+
+.progra p{
+	text-decoration: underline;
+	text-align: center;
+	font-size: 210%;
+	background-color: black;
+	color: white;
+}
+
+.progra h4{
+	color: black ;
+	text-align: center;
+	font-size: 100%;
+}
+
+.progr a{
+	color: black;
+	background-color: white;
+	text-decoration: none;
+}
+
+
+.info {
+	height:100%;
+	width:100%;
+	margin:auto;
+	background: url(https://cdn.pixabay.com/photo/2017/05/31/20/51/crowd-2361583_960_720.jpg);
+	display:table;
+	top:0;
+	background-size:cover;
+}
+.info .inf {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+.info h1{
+	font-family: Monoton;
+	font-size: 310%;
+	text-decoration: underline;
+}
+#billets {
+	float: left;
+}
+#infau {
+	float: right;
+}
+.clear {
+clear: both;
+} 
+
+.inf h2{
+	font-family: Monoton;
+	font-size: 250%;
+	text-decoration: underline;
+}
+
+.inf h4 {
+	font-family: Orbitron;
+}
+.inf p {
+	background-color: white;
+}
+.inf h6 {
+	font-size: 400%;
+}
+
+.inf{
+
+}
